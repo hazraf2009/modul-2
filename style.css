@@ -1,11 +1,12 @@
 body {
     font-family: Arial,  sans-serif; /* keluarga font */
     font-size: 11px; /* Ukuran font utama pada tag <p></p> */
-    background-color: #f0f0f0; /* Warna latar belakang laman web */
+    background-color: black; /* Warna latar belakang laman web */
     color: white; /* Warna teks */
-    background-color: black;
     border: 0.5em solid;
     padding: 0.5rem;
+    
+
 }
 h1 {
     color: blue; /* Warna tajuk (header)*/
@@ -15,5 +16,4 @@ h1 {
 h2 {
     color: yellow;
     font-size: 25px;
-
 }
