@@ -6,11 +6,11 @@ body {
     
 }
 h1 {
-    color: #00a800; /* Warna tajuk (header)*/
+    color: blue; /* Warna tajuk (header)*/
     font-size: 24px; /* Ukuran font tajuk (header) */
     font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
 }
 h2 {
-    color: aqua;
+    color: yellow;
     font-size: 25px;
 }
