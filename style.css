@@ -2,7 +2,9 @@ body {
     font-family: Arial,  sans-serif; /* keluarga font */
     font-size: 11px; /* Ukuran font utama pada tag <p></p> */
     background-color: black; /* Warna latar belakang laman web */
-    color: yellow; /* Warna teks */
+    color: white; /* Warna teks */
+    border: 0.5em solid;
+    padding: 0.5rem;
     
 }
 h1 {
