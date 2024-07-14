@@ -1,14 +1,16 @@
-
 @keyframes color-change {
     0% {
+      background-color: black;
       color: blue;
     }
   
     50% {
+      background-color: #fff;
       color: red;
     }
   
     100% {
+      background-color: black;
       color: blue;
     }
 }
@@ -20,8 +22,10 @@ body {
     color: white; /* Warna teks */
     border: 0.5em solid;
     padding: 0.5rem;
-    
+}
 
+body:hover {
+  animation: color-change 5s infinite;
 }
 
 h1 {
@@ -30,10 +34,10 @@ h1 {
     font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
 }
 
-
 h1:hover {
-    animation: color-change 3s infinite;
+  animation: color-change 5s infinite;
 }
+
 h2 {
     color: yellow;
     font-size: 25px;
